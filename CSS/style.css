@@ -1,0 +1,310 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d4c2af;
+    height: 900px;
+    width: 0px;
+}
+p, a{
+    height: 60px;
+    color: black;
+}
+p {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(233, 176, 119); 
+}
+#div1 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 755px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-image: url('../IMG/capa.jpg ');
+    background-repeat: no-repeat;
+    background-size: 1550px 1550px;
+    background-position-y: -550px;
+}
+#div2 {
+    margin-left: 100px;
+    margin-top: -610px;
+    background-color: antiquewhite;
+    position: absolute;
+    width: 1300px;
+    height: 800px;
+    border: 5px double #d4c2af;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: Pompiere-Regular;
+    src: url(../FONT/Pompiere-Regular.ttf);
+}
+#bemvindo {
+    font-family: Pompiere-Regular;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 200px;
+    font-size: 35px;
+}
+#desde {
+    font-family: Pompiere-Regular;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+#explore {
+    font-family: Pompiere-Regular;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 198px;
+    font-size: 30px;
+}
+#fotografo {
+    height: 700px;
+    width: 650px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 900px;
+}
+#img1 {
+    margin:5px 0 0 0;
+}
+#img2 {
+    margin: -8px 0 0 0;
+}
+#fotos1 {
+    position: absolute;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 280px;
+}
+#fotos2 {
+    position: absolute;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 700px;
+}
+#cinema {
+    position: absolute;
+    
+}
+#div3 {
+    margin-left: 100px;
+    margin-top: -610px;
+    background-color: antiquewhite;
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    border: 5px double #d4c2af;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+#video {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+}
+#sala {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t1 {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 850px;
+}
+#p1 {
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 650px;
+    width: 700px;
+    height: 500px;
+    font-size: 20px;
+}
+#pordosol {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 240px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t2 {
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 850px;
+}
+#p2 {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 780px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+#templo {
+    position: absolute;
+    margin-top: -535px;
+    margin-left: 240px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t3 {
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 850px;
+}
+#p3 {
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 740px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+#palmeira {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 240px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t4 {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 850px;
+}
+#p4 {
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 750px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+#biaeanth {
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t5 {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 900px;
+}
+#p5 {
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 780px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+#nuvens {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 240px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+}
+#t6 {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 860px;
+}
+#p6 {
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 730px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+.borda{
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: Ribeye-Regular;
+    src: url(../FONT/Ribeye-Regular.ttf);
+}
+#l {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 220px 920px 0 0px;
+}
+#s {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 220px -05px 0 0;
+}
+#b {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 220px -950px 0 0;
+}
+#e {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 640px 920px 0 0;
+}
+#f {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 640px -03px 0 0;
+}
+#o {
+    font-family: Ribeye-Regular;
+    font-size: 23px;
+    position: absolute;
+    margin: 640px -935px 0 0;
+}
+#whats {position: absolute; margin-top: 150px; margin-left: 200px; font-size: 18px;}
+#insta {position: absolute; margin-top: 150px; margin-left: 382px; font-size: 18px;}
+#email {position: absolute; margin-top: 150px; margin-left: 600px; font-size: 18px;}
+#wha {position: absolute; margin-top: 110px; margin-left: 245px;}
+#ins {position: absolute; margin-top: 110px; margin-left: 440px;}
+#ema {position: absolute; margin-top: 110px; margin-left: 665px;}
+#caixa{
+    display: flex;
+    position: absolute;
+    width: 1400px;
+    height: 930px;
+    border: 5px double #d4c2af;
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 146px;
+    border-radius: 20px;
+    opacity: 0.5;
+}
